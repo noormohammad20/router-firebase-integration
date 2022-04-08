@@ -26,9 +26,9 @@ const Login = () => {
                 <button onClick={handleGoogleSignIn}>Login With Google</button>
             </div>
             <form>
-                <input type="email" name="" id="" placeholder='enter your email' />
+                <input type="email" name="email" id="email" placeholder='enter your email' />
                 <br />
-                <input type="password" name="" id="" placeholder='enter your password' />
+                <input type="password" name="password" id="password" placeholder='enter your password' />
                 <br />
                 <input type="submit" value="Login" />
 
